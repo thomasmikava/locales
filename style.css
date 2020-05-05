@@ -1,0 +1,51 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+	padding: 10px;
+}
+
+.textarea {
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid #0089ff;
+    width: 100%;
+    resize: horizontal;
+    outline: none;
+    min-height: 100px;
+}
+
+.textarea:focus {
+	border: none;
+	box-shadow: 0 0 4px #0089ff;
+}
+
+
+.resContainer {
+	border-top: 1px solid #ccc;
+	margin: 10px 0;
+}
+
+.resContainer .current, .resContainer .new {
+	padding: 10px;
+	flex: 1;
+}
+
+.resContainer .current {
+	margin-right: 10px;
+}
+
+.textareas {
+	display: flex;
+}
+
+.title {
+	text-align: center;
+	font-weight: bold;
+}

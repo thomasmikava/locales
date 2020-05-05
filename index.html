@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Locales</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+	<div class="container">
+		<input type="checkbox" id="overwrite" name="overwrite" onclick="chnageOverWrite(this);">
+		<label for="overwrite">Overwrite</label><br>
+
+		<textarea id="mainTextarea" class="textarea" placeholder="Paste" oninput="onMainTextChange()"></textarea>
+	</div>
+
+	<div id="results"></div>
+</body>
+</html>
